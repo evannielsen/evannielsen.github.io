@@ -50,9 +50,9 @@ In order to debug the code remotely the Visual Studio Remote Debugger will need 
 
 I tried to follow the instructions found here https://docs.microsoft.com/en-us/dotnet/core/install/linux-debian. I was unable to do this as I was getting an error about not being able to find the package with apt-get.
 
-I ended up taking the manual approach and run this command.
+I ended up taking the manual approach and ran this command.
 
-    curl -sSL https://download.visualstudio.microsoft.com/download/pr/3f331a87-d2e9-46c1-b7ef-369f8540e966/2e534214982575ee3c79a9ce9f9a4483/dotnet-runtime-3.1.8-linux-arm.tar.gz | tar xvzf /dev/stdin -C ~/dotnet
+`curl -sSL https://download.visualstudio.microsoft.com/download/pr/3f331a87-d2e9-46c1-b7ef-369f8540e966/2e534214982575ee3c79a9ce9f9a4483/dotnet-runtime-3.1.8-linux-arm.tar.gz | tar xvzf /dev/stdin -C ~/dotnet`
 
 This command exracted the 3.1.8 version of the .net runtime to the ~/dotnet folder where it can be referenced later.
 
