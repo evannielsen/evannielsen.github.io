@@ -11,7 +11,7 @@ There is a convenient imaging tool on the Raspberry Pi website that will put the
 
 At the time of this writing I used the August 2020 version of the Raspberry Pi OS which is based on Debian 10.
 
-After you have the image on the SD card place it in your Raspberry Pi and boot it up. Complete the initial setup steps inclusing network configuration and setting up a password.
+After you have the image on the SD card place it in your Raspberry Pi and boot it up. Complete the initial setup steps including network configuration and setting up a password.
 
 
 
